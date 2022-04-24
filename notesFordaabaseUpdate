@@ -1,0 +1,6 @@
+12/08/2021
+
+1 = customer table => verified false 
+2 = created at(all) => current timestanmps
+3 = number of hours it will be valid till (it will be set as default)
+4 = customer name to be constant where ever it is in relation with same goes for profile_id

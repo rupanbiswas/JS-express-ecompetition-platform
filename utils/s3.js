@@ -33,11 +33,11 @@ const s3 = new AWS.S3();
 
 // const s3 = new AWS.S3({
 
-// region : "us-east-2",
+// region : 
 
-// accessKeyId : "AKIA2OHW2XM75D64YCRP",
+// accessKeyId : 
 
-// securityAccessKey: "N3bLD3ACJq8Iw3x7wfmp1bi00gG2yPDrjdyYFqxE"
+// securityAccessKey: 
 
 // })
 

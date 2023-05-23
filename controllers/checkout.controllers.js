@@ -3,16 +3,16 @@
 /* eslint-disable no-plusplus */
 const asyncHandler = require('express-async-handler');
 const crypto = require('crypto');
-const Razorpay = require('razorpay');
+// const Razorpay = require('razorpay');
 const { nanoid } = require('nanoid');
 
 const { createBooking } = require('../database/DAO/checkout');
 const { apiCaller } = require('../utils/cms.api.caller');
 
-const razorPayInstance = new Razorpay({
-  key_id: process.env.KEY_ID,
-  key_secret: process.env.KEY_SECRET,
-});
+// const razorPayInstance = new Razorpay({
+//   key_id: process.env.KEY_ID,
+//   key_secret: process.env.KEY_SECRET,
+// });
 //route = /checkout/payment-order
 //method post
 //create payment order

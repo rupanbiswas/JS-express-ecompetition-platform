@@ -37,7 +37,7 @@ const port = process.env.PORT || 8080;
 require('dotenv').config();
 let swaggerOptions;
 
-if (process.env.DB_PLATFORM == 'dev') {
+// if (process.env.DB_PLATFORM == 'dev') {
   swaggerOptions = {
     swaggerDefinition: {
       info: {
@@ -59,7 +59,7 @@ if (process.env.DB_PLATFORM == 'dev') {
     },
     apis: ['./routes/*.js'],
   };
-}
+// }
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocs));
 

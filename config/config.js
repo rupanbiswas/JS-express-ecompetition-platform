@@ -9,5 +9,8 @@ module.exports = function (value) {
   } else if (value === 'live') {
     console.log('in live process');
     module.exports.properties = require('./live');
+  }else{
+     console.log('in developement process');
+    module.exports.properties = require('./development');
   }
 };
